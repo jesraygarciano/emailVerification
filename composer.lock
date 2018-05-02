@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5bca48e56bbf3a25645858fcab9c285",
+    "content-hash": "ce5427f3b63686ae5f6b86d7e672dbec",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -452,6 +452,59 @@
                 }
             ],
             "time": "2015-04-20T18:58:01+00:00"
+        },
+        {
+            "name": "josiasmontag/laravel-email-verification",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/josiasmontag/laravel-email-verification.git",
+                "reference": "72609710a6f996b0aed19ba16813e754a8fac0cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/josiasmontag/laravel-email-verification/zipball/72609710a6f996b0aed19ba16813e754a8fac0cb",
+                "reference": "72609710a6f996b0aed19ba16813e754a8fac0cb",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/auth": "5.4.*|5.5.*|5.6.*",
+                "illuminate/queue": "5.4.*|5.5.*|5.6.*",
+                "illuminate/support": "5.4.*|5.5.*|5.6.*",
+                "nesbot/carbon": "~1.20",
+                "php": ">=5.6.4"
+            },
+            "require-dev": {
+                "laravel/framework": "5.4.*|5.5.*|5.6.*",
+                "mockery/mockery": "~0.9",
+                "orchestra/testbench": "~3.4.2|^3.5.0",
+                "phpunit/phpunit": "^5.7|6.2|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Lunaweb\\EmailVerification\\Providers\\EmailVerificationServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lunaweb\\EmailVerification\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josias Montag",
+                    "email": "josias@montag.info"
+                }
+            ],
+            "description": "Laravel Email Verification",
+            "time": "2018-02-08T14:08:45+00:00"
         },
         {
             "name": "laravel/framework",
